@@ -154,6 +154,25 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		#back-icon {
+			position: fixed;
+  			top: 0;
+  			left: 0;
+		}
+
+		img#me {
+			border-radius: 50%;
+		}
+		
+		span.bold {
+			font-weight: bold;
+		}
+
+		#down {
+			position: absolute;
+			bottom: 0;
+		}
+
 /* Wrapper */
 
 	@-moz-keyframes wrapper {
@@ -212,10 +231,6 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		-moz-animation: bg 60s linear infinite;
-		-webkit-animation: bg 60s linear infinite;
-		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
